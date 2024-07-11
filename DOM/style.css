@@ -1,0 +1,13 @@
+*{
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+    border: 5px solid black;
+    padding: 4px;
+    background-color: aquamarine;
+}
+button{
+    background-color: whitesmoke;
+    padding: 2px;
+}
