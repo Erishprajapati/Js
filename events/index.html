@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: bisque;
+        }
+        h2{
+            text-align: center;
+            margin: 5px solid black;
+            text-decoration:underline;
+        }
+        h4{
+            text-align: center;
+        }
+        button{
+            background-color: whitesmoke;
+            padding: 5px 10px 3px 10px;
+        }
+    </style>
+</head>
+<body>
+  <!--  <button onclick="console.log('why you clicked me');alert('w3school')">bang me</button> -->
+
+  <!--  <button onclick="console.log('Hi buddy');alert('the documentation has been published')">Submit</button>
+  <button ondblclick="console.log('hi buddy again here')">@Submit again</button> -->
+<div onmouseover="console.log('fill this form for your participation')">
+    <h2>DAV College</h2>
+    <h4>Fill the details for your form</h4>
+    <form>
+        <label for="name">Enter your name:</label><br>
+        <input type="text" id="name" name="name" placeholder="required"><br><br>
+        <label for="name">College Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="required"><br><br>
+        <label for="number">Phone number:</label><br>
+        <input type="number" id="number" name="number" placeholder="mandatory"><br><br>
+        <button onclick="console.log(alert('Your form has been submitted'))">Submit</button>
+        <button ondblclick="console.log(alert('Are you sure to cancel this'))">Cancel</button>
+    </form>
+
+
+</div>
+</body>
+</html>
